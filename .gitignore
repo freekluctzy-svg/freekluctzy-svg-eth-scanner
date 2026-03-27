@@ -1,0 +1,57 @@
+## Visual Studio / .NET .gitignore
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet packages
+.nuget/
+*.nupkg
+*.snupkg
+**/[Pp]ackages/
+nuget.config
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+!**/[Pp]ackages/build/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.aps
+
+# User-specific settings that should not be shared
+appsettings.Development.json
+
+# IDE
+.idea/
+*.DS_Store
+Thumbs.db
